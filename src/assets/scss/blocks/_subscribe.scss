@@ -1,0 +1,18 @@
+.subscribe {
+    width: 1024px;
+    height: 154px;
+    background: linear-gradient(0.00deg, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.11) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    .subscrive_title {
+        color: rgb(0, 0, 0);
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+}

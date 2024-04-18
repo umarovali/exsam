@@ -1255,4 +1255,114 @@ li {
   border: 2px solid rgba(0, 0, 0, 0.05);
   transition: 0.4s linear;
   cursor: pointer;
+}
+
+.delivery {
+  width: 100%;
+  height: 152px;
+  background: rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.delivery .delivery_title {
+  border-radius: 6px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0) 100%);
+  width: 500px;
+  height: 72px;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.customer {
+  margin-top: 20px;
+}
+.customer .customer_title {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.customer .customer_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+.customer .customer_wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.customer_item {
+  width: 260px;
+  height: 92px;
+  padding: 30px;
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.customer_item .item_avatar_name {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.customer_item .avatar {
+  width: 24px;
+  height: 24px;
+  border-radius: 24px;
+  background: rgba(0, 0, 0, 0.1);
+}
+.customer_item .item_name {
+  color: rgb(0, 0, 0);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+}
+.customer_item .item_suptitle {
+  color: rgb(0, 0, 0);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  width: 180px;
+  padding-top: 18px;
+}
+.customer_item .item_stars {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+}
+.customer_item .item_star {
+  color: #FF6C6C;
+  font-size: 10px;
+}
+
+.subscribe {
+  width: 1024px;
+  height: 154px;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.11) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.subscribe .subscrive_title {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
 }/*# sourceMappingURL=main.css.map */
