@@ -1,0 +1,106 @@
+.cart_item {
+    width: 635px;
+    height: 175px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+
+    .item_img {
+        width: 243px;
+        height: 165px;
+        object-fit: contain;
+        padding-left: 10px;
+    }
+
+    .item_data {
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .item_price {
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+        color: #FF6C6C;
+    }
+
+    .item_title {
+        padding-top: 10px;
+        color: rgb(0, 0, 0);
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 22px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        -webkit-line-clamp: 2;
+        width: 175px;
+    }
+
+    .item_suptitle {
+        padding-top: 10px;
+        color: rgba(0, 0, 0, 0.4);
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        -webkit-line-clamp: 3;
+        width: 215px;
+    }
+
+    .item_right {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .item_countries {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .item_count_delete {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .imte_plus {
+        width: 30px;
+        height: 30px;
+        border-radius: 5px;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .item_delete {
+        width: 87px;
+        height: 30px;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        color: #000;
+        background: #fff;
+        border: 2px solid rgba(0, 0, 0, 0.05);
+        transition: .4s linear;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,104 @@
+.products {
+    margin-top: 20px;
+
+    .select_wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .select_title {
+            color: rgb(0, 0, 0);
+            font-family: Inter;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 24px;
+        }
+
+        .select_suptitle {
+            padding-top: 5px;
+            color: rgba(0, 0, 0, 0.5);
+            font-family: Inter;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 16px;
+        }
+
+        .select_right {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .select_category {
+            width: 150px;
+            height: 28px;
+            box-sizing: border-box;
+            border: 1px solid rgb(0, 0, 0);
+            border-radius: 66px;
+            outline: none;
+            padding-left: 10px;
+            color: rgb(0, 0, 0);
+            font-family: Inter;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 14px;
+            cursor: pointer;
+        }
+
+        .select_btn_all {
+            box-sizing: border-box;
+            border: 1px solid rgb(0, 0, 0);
+            border-radius: 66px;
+            width: 103px;
+            height: 28px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            color: rgb(0, 0, 0);
+            font-family: Inter;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 14px;
+            background: #00000000;
+            cursor: pointer;
+        }
+    }
+
+    .product_wrapper {
+        display: flex;
+        gap: 8px;
+        overflow-x: scroll;
+        padding-top: 20px;
+        position: relative;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        .product_loading {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .product_loading img {
+            width: 300px;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .product_none_found {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .product_none_found img {
+            width: 100%;
+            height: 400px;
+            object-fit: contain;
+        }
+    }
+}
